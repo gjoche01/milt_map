@@ -1,8 +1,6 @@
 /*
-  Although amMap has methods like getAreaCenterLatitude and getAreaCenterLongitude,
-  they are not suitable in quite a lot of cases as the center of some countries
-  is even outside the country itself (like US, because of Alaska and Hawaii)
-  That's why wehave the coordinates stored here
+  This is adapated from an example from Amcharts here: 
+  https://www.amcharts.com/demos/map-bubbles/
 */
 function map () {
 var latlong = {};
